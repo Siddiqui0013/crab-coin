@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background-color: #F4D06F;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px black; 
+  color: #4A90E2;
+  /* font-weight: bolder; */
+  font-weight:900
+}
