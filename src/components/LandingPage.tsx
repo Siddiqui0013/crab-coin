@@ -20,8 +20,9 @@ export default function LandingPage() {
       <Divider/>
       <div id="roadmap"><RoadMap /></div>
       <Divider/>
-      {/* <div id="faq"><FAQ /></div> */}
-      {/* <Footer /> */}
+      <div id="faq"><FAQ /></div>
+      <Divider height="250"/>
+      <Footer />
     </div>
   )
 }

@@ -32,17 +32,17 @@ export default function Tokenomics() {
       ];
 
   return (
-    <div className="md:bg-[url('./src/assets/hero-coins.png')] relative bg-cover md:bg-right-bottom bg-no-repeat flex justify-center w-full py-12 px-8 min-h-[80vh]">
-        <div className="token w-[95%] md:w-[80%] mt-12 border-8 border-black rounded-3xl bg-[#FFA764]">
+    <div className="md:bg-[url('./src/assets/hero-coins.png')] relative bg-cover md:bg-right-bottom bg-no-repeat flex justify-center w-full py-12 p-2 md:px-8 min-h-[80vh]">
+        <div className="token w-[100%] md:w-[80%] mt-12 border-8 border-black rounded-3xl bg-[#FFA764]">
             <h1 className="text-4xl md:text-7xl text-center mt-12 text-black font-extrabold">Tokenomics</h1>
 
-        <div className="p-8 z-50">
+        <div className="md:p-8 p-3 z-50">
         <div className="overflow-x-auto">
           <table className="w-full mb-20">
             <thead>
               <tr className="">
                 <th className="text-left p-4 text-xl font-bold">Category</th>
-                <th className="text-left p-4 text-xl font-bold">Percentage</th>
+                <th className="text-left md:block hidden p-4 text-xl font-bold">Percentage</th>
                 <th className="text-left p-4 text-xl font-bold">Allocated Token</th>
               </tr>
             </thead>
@@ -50,7 +50,7 @@ export default function Tokenomics() {
               {tokenomicsData.map((item, index) => (
                 <tr key={index} className="border-b border-black/20">
                   <td className="p-4 text-lg">{item.category}</td>
-                  <td className="p-4 text-lg">{item.percentage}</td>
+                  <td className="p-4 text-lg hidden md:block">{item.percentage}</td>
                   <td className="p-4 text-lg">{item.allocated}</td>
                 </tr>
               ))}

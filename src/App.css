@@ -5,7 +5,7 @@
 #root {
   background-color: #F4D06F;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .text-stroke {

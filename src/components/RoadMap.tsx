@@ -35,8 +35,12 @@ export default function RoadMap() {
     ]
 
   return (
+    // <>
+    // <h1>Hello</h1>
+    // </>
     <div className="bg-[url('./src/assets/hero-coins.png')] relative bg-cover md:bg-right-bottom bg-no-repeat flex flex-col items-center justify-center gap-4 my-8 p-4">
       <h1 className="text-4xl md:text-7xl mt-12 text-black font-extrabold">Roadmap</h1>
+
       <div className="boxes w-full flex flex-col gap-6 justify-center items-center">
         {
             RoadMap.map((value)=>{
@@ -58,7 +62,8 @@ export default function RoadMap() {
             })
         }
       </div>
-      <img src={RoadMapImage} className="md:block absolute hidden -bottom-48 right-0 -rotate-12 w-[20%]" alt="" />
+
+      <img src={RoadMapImage} className="md:block    absolute hidden -bottom-48 right-10 -rotate-12 w-[20%]" alt="" />
     </div>
   )
 }

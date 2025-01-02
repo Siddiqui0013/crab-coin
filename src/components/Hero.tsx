@@ -37,7 +37,7 @@ export default function Hero() {
 					Token Address
 				</p>
 
-				<div className="relative flex items-center justify-center md:w-[65%] w-[100%]">
+				<div className="relative address flex items-center justify-center md:w-[65%] w-[100%]">
 					<div className="overflow-hidden text-lg md:text-xl py-4 w-full border-black border-b-4 border-r-4 px-2 rounded-lg border">
 						fgjreigrwhueht8438rhfuhfsuh
 					</div>
